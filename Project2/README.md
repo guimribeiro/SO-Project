@@ -143,8 +143,11 @@ SHELL SCRIPT:
 
 
 N of processors: 4
+
 Processor model: Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz
+
 Clock min: 1200 MHz
+
 Clock Max: 3400 MHz
 
 
@@ -152,5 +155,7 @@ Clock Max: 3400 MHz
 
 
 Name: Ubuntu
+
 Version: 17.10
+
 Kernel:	Linux Ace 4.13.0-46-generic
