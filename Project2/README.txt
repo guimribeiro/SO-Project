@@ -1,6 +1,12 @@
-*---------------------*
-* DIRECTORY STRUCTURE *
-*---------------------*
+# Project Second Part Description
+
+The second part of the project description is available [here](https://github.com/guimribeiro/SO-Project/blob/master/Project2/ProjectoSo1819-P2.pdf)
+
+# Results
+
+Results are available in directory 'results'
+
+# DIRECTORY STRUCTURE
 
 Project2
 ├── CircuitRouter-ParSolver
@@ -95,9 +101,9 @@ Project2
 Directories: 5
 Files: 82
 
-*----------------------------------------*
-* Compilation and execution instructions *
-*----------------------------------------*
+
+# Compilation and execution instructions
+
 
 To compile the project, open the terminal in the root directory (Project2),
 and execute the command 'make'.
@@ -130,18 +136,18 @@ SHELL SCRIPT:
 
 
 
-*---------------------------*
-* Machine features *
-*---------------------------*
+
+# Machine features
+
 
 N of processors: 4
 Processor model: Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz
 Clock min: 1200 MHz
 Clock Max: 3400 MHz
 
-*-------------------------------------*
-* Operating System Features *
-*-------------------------------------*
+
+# Operating System Features *
+
 
 Name: Ubuntu
 Version: 17.10
