@@ -112,8 +112,8 @@ Command line:
 
 	The CircuitRouter-ParSolver must receive 2 positional arguments:
 
-	NUMTAREFAS -> The number of working tasks, 
-					and an integer larger than zero
+	NUMTAREFAS -> The number of working tasks, and an integer larger 
+		      than zero
 	INPUT -> The path to the file that contains the problem to analyse.
 
 
