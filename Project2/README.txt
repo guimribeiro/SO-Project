@@ -1,8 +1,8 @@
-*--------------------------*
-* ESTRUTURA DAS DIRETORIAS *
-*--------------------------*
+*---------------------*
+* DIRECTORY STRUCTURE *
+*---------------------*
 
-Mutex_for_point
+Project2
 ├── CircuitRouter-ParSolver
 │   ├── CircuitRouter-ParSolver
 │   ├── CircuitRouter-ParSolver.c
@@ -92,57 +92,57 @@ Mutex_for_point
     └── random-x64-y64-z3-n64.txt.speedups.csv
 
 
-Diretorias: 5
-Ficheiros: 82
+Directories: 5
+Files: 82
 
-*----------------------------------*
-* INSTRUCOES COMPILACAO E EXECUCAO *
-*----------------------------------*
+*----------------------------------------*
+* Compilation and execution instructions *
+*----------------------------------------*
 
-Para compilar do projeto, abra, na diretoria root,
-Mutex_for_point, o terminal	e execute o comando 'make'.
+To compile the project, open the terminal in the root directory (Project2),
+and execute the command 'make'.
 
-Para executar o projeto atraves:
+To execute the project from:
 
-LINHA DE COMANDOS:
+Command line:
 
-	Corra no terminal a seguinte linha de comandos,
+	Run in the terminal the following line of commands,
 
 			./CircuitRouter-ParSolver INPUT -t NUMTAREFAS
 
-	O CircuitRouter-ParSolver devera receber dois argumentos obrigatorios:
+	The CircuitRouter-ParSolver must receive 2 positional arguments:
 
-	NUMTAREFAS -> O numero de tarefas trabalhadoras, 
-					e um inteiro maior que zero
-	INPUT -> o caminho do ficheiro com o problema a analisar.
+	NUMTAREFAS -> The number of working tasks, 
+					and an integer larger than zero
+	INPUT -> The path to the file that contains the problem to analyse.
 
 
 SHELL SCRIPT:
 
-	Corra, no terminal e execute a seguinte linha de comandos,
+	Run in the terminal the following line of commands,
 
 			./doTest.sh N INPUT
 
-	O shell script devera receber dois argumentos posicionais obrigatorios:
+	O shell script must receive 2 positional arguments:
 
-	N -> o numero maximo de tarefas
-	INPUT -> o caminho do ficheiro com o problema a analisar.
+	N -> the maximum number of tasks
+	INPUT -> The path to the file that contains the problem to analyse.
 
 
 
 *---------------------------*
-* CARATERISTICAS DA MAQUINA *
+* Machine features *
 *---------------------------*
 
-N de processadores: 4
-Modelo Processador: Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz
+N of processors: 4
+Processor model: Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz
 Clock min: 1200 MHz
 Clock Max: 3400 MHz
 
 *-------------------------------------*
-* CARATERISTICAS DO SISTEMA OPERATIVO *
+* Operating System Features *
 *-------------------------------------*
 
-Nome: Ubuntu
-Versao: 17.10
+Name: Ubuntu
+Version: 17.10
 Kernel:	Linux Ace 4.13.0-46-generic
